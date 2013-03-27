@@ -1,0 +1,30 @@
+.b-wid{
+	display: none;
+	background: #ddd;
+	border: 1px;
+	padding: 15px;
+	top: 500px;
+	position: absolute;
+}
+
+.b-wid .arrow{
+	display: inline-block;
+	border: 6px solid #ddd;
+	position: absolute;
+	top: -16px;
+	left: 0px;
+	-webkit-transform: rotate(45deg);
+}
+
+.wid span.word-wid{
+	display: inline-block;
+	position: relative;
+}
+
+.wid span.word-wid .progres{
+	border-top: 2px solid #333;
+	width: 0%;
+	position: absolute;
+	bottom: 0;
+	left: 0; 
+}
